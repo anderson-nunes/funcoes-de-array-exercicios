@@ -16,3 +16,9 @@ const verificarNome = produtos.filter((item) => {
 });
 
 console.log(verificarNome);
+
+const nomeDoArray = verificarNome.map((item) => {
+  return item.nome;
+});
+
+console.log(nomeDoArray);
